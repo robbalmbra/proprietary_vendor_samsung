@@ -21,7 +21,6 @@ PRODUCT_PACKAGES += \
     sswap
 
 PRODUCT_COPY_FILES += \
-    vendor/samsung/universal9810-common/charger/animation.txt:$(TARGET_COPY_OUT_PRODUCT)/etc/res/values/charger/animation.txt \
     vendor/samsung/universal9810-common/charger/battery_scale.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/battery_scale.png \
     vendor/samsung/universal9810-common/charger/battery_fail.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/battery_fail.png \
     vendor/samsung/universal9810-common/charger/main_font.png:$(TARGET_COPY_OUT_PRODUCT)/etc/res/images/charger/main_font.png
